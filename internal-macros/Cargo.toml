@@ -1,0 +1,11 @@
+[package]
+name = "internal-macros"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+nom = "7.1.3"
+syn = {version = "2.0.95", features = ["derive"]}
