@@ -1,1 +1,5 @@
 /target
+/internal-macros/target
+Cargo.lock
+/internal-macros/Cargo.lock
+
